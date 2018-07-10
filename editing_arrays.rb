@@ -21,11 +21,10 @@ def change_rainbow_colors
   "default",
   "light_cyan"
 ]
-  
-  array[0]="red"
-  array[1]="light_red"
-  array[2]="light_yellow"
-  array
+  rainbow_colors[0]="red"
+  rainbow_colors[1]="light_red"
+  rainbow_colors[2]="light_yellow"
+  rainbow_colors
 end
 
 
