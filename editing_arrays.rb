@@ -21,7 +21,7 @@ def change_rainbow_colors
   "default",
   "light_cyan"
 ]
-  array= []
+  
   array[0]="red"
   array[1]="light_red"
   array[2]="light_yellow"
@@ -36,7 +36,7 @@ def add_colors
   "default",
   "light_cyan"
 ]
-  rainbow_colors = []
-  rainbow_colors[3]<< "green"
-  rainbow_colors[4]<< "blue"
+  
+  rainbow_colors << "green"
+  rainbow_colors << "blue"
 end
